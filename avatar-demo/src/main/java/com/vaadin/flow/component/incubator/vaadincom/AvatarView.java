@@ -37,7 +37,7 @@ import com.vaadin.flow.router.Route;
 public class AvatarView extends DemoView {
 
     public final String IMG_URL = "https://mbtskoudsalg.com/images/pacman-blue-ghost-png-2.png";
-    public final String USR_IMAGE_PATH = "src/main/resources/images/user.png";
+    public final String USR_IMAGE_PATH = "images/user.png";
 
     @Override
     protected void initView() {
@@ -58,7 +58,10 @@ public class AvatarView extends DemoView {
 
     private void exampleAvatarImagePath(){
         Avatar avatar = new Avatar();
-        avatar.setImage(USR_IMAGE_PATH,"image/png");
+
+        String filePath = getClass().getClassLoader().getResource(USR_IMAGE_PATH).getFile();
+
+        avatar.setImage(filePath,"image/png");
 
         addCard("Avatar - Image from resources", avatar);
     }

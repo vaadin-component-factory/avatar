@@ -1,8 +1,8 @@
-# Incubator Avatar for Vaadin 10+
+# Component Factory Avatar for Vaadin 10+
 
-[Live Demo ↗](https://incubator.app.fi/avatar-demo/index.html)
+[Live Demo ↗](https://incubator.app.fi/avatar-demo/avatar)
 
-[&lt;vcf-avatar&gt;](https://vaadin.com/directory/component/vcf-avatar) is a Web Component for displaying an avatar for a user, his name initials, or a placeholder icon.
+[&lt;vcf-avatar&gt;](https://vaadin.com/directory/component/vaadin-component-factoryvcf-avatar) is a Web Component for displaying an avatar for a user, their name initials, or a placeholder icon.
 
 # What does the component do?
 
@@ -72,7 +72,7 @@ Button actionButton = new Button("enable/disable", event -> {
 
 # How to run the demo?
 
-The Demo can be run by going to the project incubator-avatar-flow-vaadincom-demo and executing the maven goal:
+The Demo can be run by going to the project avatar-demo and executing the maven goal:
 
 ```mvn jetty:run```
 
@@ -83,7 +83,7 @@ After server startup, you'll be able find the demo at[http://localhost:8080/avat
 
 This Add-on is distributed under [Commercial Vaadin Add-on License version 3](http://vaadin.com/license/cval-3) (CVALv3). For license terms, see LICENSE.txt.
 
-Incubator avatar is written by Vaadin Ltd.
+Component Factory Avatar is written by Vaadin Ltd.
 
 
 ## Setting up for development:
@@ -91,7 +91,7 @@ Incubator avatar is written by Vaadin Ltd.
 Clone the project in GitHub (or fork it if you plan on contributing)
 
 ```
-git clone git@github.com/vaadin/incubator-avatar-flow.git
+git clone git@github.com:vaadin-component-factory/vcf-avatar.git
 ```
 
 to install project to your maven repository run
