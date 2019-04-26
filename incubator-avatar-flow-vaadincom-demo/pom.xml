@@ -4,9 +4,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.vaadin</groupId>
+        <groupId>com.vaadin.componentfactory</groupId>
         <artifactId>incubator-avatar-flow-root</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.1-SNAPSHOT</version>
     </parent>
 
     <artifactId>incubator-avatar-flow-vaadincom-demo</artifactId>
@@ -20,9 +20,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.vaadin</groupId>
+            <groupId>com.vaadin.componentfactory</groupId>
             <artifactId>incubator-avatar-flow</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.1-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
         <dependency>

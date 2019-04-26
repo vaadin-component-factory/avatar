@@ -41,8 +41,8 @@ import com.vaadin.flow.shared.Registration;
  *
  * @author Vaadin Ltd
  */
-@Tag("incubator-avatar")
-@HtmlImport("bower_components/incubator-avatar/src/incubator-avatar.html")
+@Tag("vcf-avatar")
+@HtmlImport("bower_components/vcf-avatar/src/vcf-avatar.html")
 public class Avatar extends Component implements HasStyle {
 
     /**
