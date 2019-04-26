@@ -5,14 +5,14 @@
 
     <parent>
         <groupId>com.vaadin.componentfactory</groupId>
-        <artifactId>incubator-avatar-flow-root</artifactId>
+        <artifactId>avatar-root</artifactId>
         <version>1.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>incubator-avatar-flow-vaadincom-demo</artifactId>
+    <artifactId>avatar-demo</artifactId>
     <packaging>war</packaging>
 
-    <name>Incubator avatar VaadinCom Demo</name>
+    <name>Component Factory Avatar add-on Demo</name>
 
     <properties>
         <failOnMissingWebXml>false</failOnMissingWebXml>
@@ -21,7 +21,7 @@
     <dependencies>
         <dependency>
             <groupId>com.vaadin.componentfactory</groupId>
-            <artifactId>incubator-avatar-flow</artifactId>
+            <artifactId>avatar</artifactId>
             <version>1.1-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>

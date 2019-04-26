@@ -1,19 +1,22 @@
-# Incubator Avatar for Flow
+# Incubator Avatar for Vaadin 10+
 
-[Live Demo ↗](https://incubator.app.fi/incubator-avatar-demo/index.html)
+[Live Demo ↗](https://incubator.app.fi/avatar-demo/index.html)
 
-[&lt;incubator-avatar&gt;](https://vaadin.com/directory/component/vaadinincubator-avatar) is a Web Component displaying user's avatar, his name or a placeholder icon.
+[&lt;vcf-avatar&gt;](https://vaadin.com/directory/component/vcf-avatar) is a Web Component for displaying an avatar for a user, his name initials, or a placeholder icon.
 
 # What does the component do?
 
-Incubator Avatar displays an image or abbreviations that represents the user's avatar.
+Avatar displays an image or abbreviation that represents a user.
 
 # How is it used?
 
-Avatar is visual identifier that represents user by showing image or name abbreviation(in case image is not set). 
-A tooltip (enable by default) can be enable or disable to display the name of the avatar when hover on it.
+An avatar is visual identifier that represents user by showing image or name abbreviation (in case image is not set). 
+A tooltip (enabled by default) can be enabled or disabled to display the name of the avatar when hovering over it.
 
-The abbr is generated from the Avatar's name initials. E.g. John Smith - JS.
+The abbreviation is generated from the name initials. E.g. John Smith becomes JS.
+
+### Vaadin Prime
+This component is part of Vaadin Prime. Still, open source you need to have a valid CVAL license in order to use it. Read more at: vaadin.com/pricing
 
 ## Avatar - Image (URL)
 ```java
@@ -69,7 +72,7 @@ Button actionButton = new Button("enable/disable", event -> {
 
 # How to run the demo?
 
-The Demo can be run going to the project incubator-avatar-flow-vaadincom-demo and executing the maven goal:
+The Demo can be run by going to the project incubator-avatar-flow-vaadincom-demo and executing the maven goal:
 
 ```mvn jetty:run```
 

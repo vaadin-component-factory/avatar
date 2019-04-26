@@ -5,14 +5,14 @@
 
     <parent>
         <groupId>com.vaadin.componentfactory</groupId>
-        <artifactId>incubator-avatar-flow-root</artifactId>
+        <artifactId>avatar-root</artifactId>
         <version>1.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>incubator-avatar-flow</artifactId>
+    <artifactId>avatar</artifactId>
     <packaging>jar</packaging>
 
-    <name>Incubator avatar for Vaadin 10</name>
+    <name>Component Factory avatar for Vaadin 10 add-on</name>
 
     <dependencies>
         <dependency>
@@ -26,6 +26,13 @@
             <version>1.0.1</version>
         </dependency>
     </dependencies>
+
+    <licenses>
+        <license>
+            <name>CVALv3</name>
+            <url>https://vaadin.com/license/cval-3</url>
+        </license>
+    </licenses>
 
     <build>
         <plugins>

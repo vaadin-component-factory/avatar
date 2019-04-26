@@ -11,11 +11,11 @@
 	</parent>
 
 	<groupId>com.vaadin.componentfactory</groupId>
-	<artifactId>incubator-avatar-flow-root</artifactId>
+	<artifactId>avatar-root</artifactId>
 	<packaging>pom</packaging>
 	<version>1.1-SNAPSHOT</version>
 
-	<name>Incubator Avatar Root</name>
+	<name>Component Factory Avatar add-on Root</name>
 
 	<inceptionYear>2018</inceptionYear>
 	<organization>
@@ -34,8 +34,8 @@
 	</properties>
 
 	<modules>
-		<module>incubator-avatar-flow</module>
-		<module>incubator-avatar-flow-vaadincom-demo</module>
+		<module>avatar</module>
+		<module>avatar-demo</module>
 	</modules>
 	<repositories>
 		<repository>
