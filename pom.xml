@@ -40,7 +40,7 @@
 	</properties>
 
 	<modules>
-		<!--<module>avatar</module>-->
+		<module>avatar</module>
 		<module>avatar-demo</module>
 	</modules>
 
